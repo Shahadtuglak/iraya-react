@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iraya-react/static/css/main.b3745611.css",
+    "main.js": "/iraya-react/static/js/main.0f609f43.js",
+    "static/media/hero1.jpeg": "/iraya-react/static/media/hero1.a32eaf70baaddebba281.jpeg",
+    "static/media/team1.png": "/iraya-react/static/media/team1.aea0cf6b1042a30f3bef.png",
+    "static/media/hero3.jpeg": "/iraya-react/static/media/hero3.894a8c39635b5be13fda.jpeg",
+    "static/media/hero2.jpeg": "/iraya-react/static/media/hero2.a83d3f9cd040b987d804.jpeg",
+    "static/media/shahad.jpg": "/iraya-react/static/media/shahad.224137bdf2ce59d872dc.jpg",
+    "static/media/bulb.svg": "/iraya-react/static/media/bulb.71667ec4dbfca9c8476942276d3b88b7.svg",
+    "static/media/magic.svg": "/iraya-react/static/media/magic.f7dfea2d03c3fad77a6d44a8e664991a.svg",
+    "static/media/nib.svg": "/iraya-react/static/media/nib.be429daa4447e788c8e7a05e26e4fd8b.svg",
+    "static/media/twitter.svg": "/iraya-react/static/media/twitter.6d8c15943249b38bbbc1a64310cb8f56.svg",
+    "static/media/instagram.svg": "/iraya-react/static/media/instagram.6d10e1e4887ac884f78a3d626f71794c.svg",
+    "static/media/laptop.svg": "/iraya-react/static/media/laptop.871d8f6e359e85c311c5c975ce9876c0.svg",
+    "index.html": "/iraya-react/index.html",
+    "static/media/facebook.svg": "/iraya-react/static/media/facebook.0e5bce23fca01818b9d72054f69f5960.svg",
+    "main.b3745611.css.map": "/iraya-react/static/css/main.b3745611.css.map",
+    "main.0f609f43.js.map": "/iraya-react/static/js/main.0f609f43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3745611.css",
+    "static/js/main.0f609f43.js"
+  ]
+}
