@@ -1,38 +1,241 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #001233;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*----------------Navbar ---------------------------*/
+.navbar{
+  font-family: Raleway !important;
+  /* background-color: #001233 !important;  */
+  /* background: transparent !important; */
+  border-bottom: 1px dotted white;
+  height: 4rem !important;
+}
+
+/*change color of navbar while scrolling*/
+.navbar-bg{
+  background-color: #001233;
+  border: none;
+}
+
+
+.navbar a{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-brand{
+  font-family: 'DM Serif Display', serif !important; 
+  font-weight: 400 !important;
+  font-size: 2.5rem !important;
+}
+
+/*----------------Hero Section ---------------------------*/
+.heroImage{
+  height: 700px !important;
+  filter: brightness(50%);
+  /* background-attachment: fixed !important; */
+}
+
+.carouselContent{
+  font-family: Raleway !important;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white !important;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/*----------------About ---------------------------*/
+.about{
+  font-family: Raleway !important;
+  margin-top: 6rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+  /* background-color: #f3e9dc; */
+
+}
+
+.about h1{
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder !important;
+  margin-bottom: 2rem;
+}
+.about p{
+  text-align: justify;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.services-card-top{
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.services-card-body{
+  text-align: center !important;
+  margin-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.services-card-body h3{
+  font-weight: bolder;
+}
+
+.laptopIcon{
+  height: 150px;
+  width: 150px;
+  padding: 2rem;
+  padding: 2rem !important;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.laptopIcon:hover{
+  background-color:#001233 !important; 
+  transition: ease-in-out, 1s;
+
+}
+
+/*----------------team ---------------------------*/
+.team{
+  font-family: Raleway !important;
+  padding-top: 4rem;
+  line-height: 2rem;
+  padding-bottom: 4rem;
+}
+
+
+.team-section{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 550px;
+  margin: 5px;
+}
+
+.team h1{
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.teamImage{
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  /* border: 1px solid black; */
+}
+
+.team-section:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.socialIcon{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 4px;
+}
+
+.socialIcon:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: ease-in-out, 0.3s;
+}
+
+/*----------------Pricing ---------------------------*/
+.price{
+  font-family: Raleway !important;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.price h1{
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.price-card{
+  height: 450px;
+  width: 300px;
+  margin: 5px;
+  background-color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-weight: bolder !important;
+  font-size: larger !important;
+  padding-top: 2rem;
+}
+
+
+.price-card h2{
+  font-weight: bold;
+}
+
+.price-card h3{
+  font-weight: bolder;
+  color: red;
+}
+
+
+.priceIcon{
+  height: 50px;
+  width: 50px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.bg-color{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ---------------testimonials-------------------*/
+.testimonials{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-family: Raleway !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.testimonials h1{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.testimonials-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.carouselContent p{
+  font-size: medium;
+}
+
+.testimonials-bg{
+  background-color: #001233;
+  height: 500px;
+  width: 100%;
+}
+
+
+/*--------------footer---------------*/
+footer{
+  text-align: center;
+  margin: 1rem;
+  font-family: Raleway !important;
+}
+
+footer a{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }
